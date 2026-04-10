@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from authentication.database import Base, engine
-from routes.users import router
+from authentication.routes.users import router
 
 app = FastAPI(debug=True)
 
